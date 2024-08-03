@@ -9,7 +9,7 @@ ArduboyTones sound(arduboy.audio.enabled);
 // sound data (Do Re Mi Fa Sol La Ti Do)
 const uint16_t scale[] PROGMEM = {
   NOTE_C3,500, NOTE_D3,500, NOTE_E3,500, NOTE_F3,500,
-  NOTE_G3,500, NOTE_A4,500, NOTE_B4,500, NOTE_C4,500,
+  NOTE_G3,500, NOTE_A3,500, NOTE_B3,500, NOTE_C4,500,
   TONES_END
 };
 
