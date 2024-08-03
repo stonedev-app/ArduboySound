@@ -29,7 +29,9 @@ void loop() {
 
   // A_BUTTON pressed
   if(arduboy.justPressed(A_BUTTON)) {
-    // start sound
-    sound.tones(scale);
+    if (!sound.playing()) {
+      // start sound
+      sound.tones(scale);
+    }
   }
 }
